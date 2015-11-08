@@ -1,0 +1,24 @@
+* {
+color: black;
+background: transparent;
+font-size: Npt;
+font-family: serif;
+}
+
+* nav{
+  display: none;
+}
+
+
+a[href^="http://"]:after {
+  content: " (" attr(href) ") ";
+}
+
+header {
+  border: none;
+}
+
+main {
+  border: none;
+  margin: auto;
+}
